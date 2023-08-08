@@ -22,7 +22,7 @@ public class indexController {
 		int toSize = boardService.toSize();
 		mv.addObject("toSize", toSize);
 		
-		return mv;
+		return mv;   
 	}
 	
 }
